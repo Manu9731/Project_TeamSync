@@ -1,13 +1,12 @@
 import React from "react";
+import "../../../style/auth/login.scss"
 
 
 const Login = () => {
 
     
     return(
-        <>
-            Hello
-        </>
+        <div>Login</div>
     )
 }
 
