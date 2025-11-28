@@ -8,12 +8,15 @@ import { BiHide, BiShow } from "react-icons/bi";
  
 //scss
 import "../../../style/auth/login.scss"
+import { useNavigate } from "react-router-dom";
 
 
 
 const Login = () => {
 
     const [showPassword, setShowPassword] = useState(false)
+
+    const nav = useNavigate()
 
     const {
         register,
@@ -32,6 +35,7 @@ const Login = () => {
     }
 
     function submitFormData(data){
+       window.location.assign("https://www.linkedin.com/in/manu-m-g-3a8a01211")
 
     }
     
