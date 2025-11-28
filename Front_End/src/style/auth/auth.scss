@@ -1,12 +1,27 @@
 #auth{
     // background-color: #F5F2EA;
     // background-color: #f6f4f0;
+    background-color: #FEFEFE;
+
+    .logo{
+        // border-bottom: 1px solid gray;
+
+        .text{
+            background: linear-gradient(135deg, blue, orange, green);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            border-bottom: 1px solid gray;
+        }
+
+    }
 
     .auth{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
 
         h6{
             opacity: 0.5;

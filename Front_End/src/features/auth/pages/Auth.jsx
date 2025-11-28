@@ -6,7 +6,10 @@ import heroLogo from "../../../assets/image/hero3.png"
 
 function Auth() {
   return (
-    <div className=' d-lg-flex h-100' id='auth'>
+    <div className='d-flex flex-column-reverse flex-lg-row h-100 position-relative' id='auth'>
+        <div className='p-2 position-absolute logo'>
+            <h5 className='text'>TeamSync</h5>
+        </div>
         <div className=' col-lg-6 col-12 auth'>
             <h3>Welcome Back</h3>
             <h6 className=' text-gray'>Welcome back please enter your details</h6>
