@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import "../../../style/auth/auth.scss"
 
-import heroLogo from "../../../assets/image/hero3.png"
+import heroLogo from "../../../assets/image/hero4.png"
 
 //icons
 import { RiTeamLine } from "react-icons/ri";

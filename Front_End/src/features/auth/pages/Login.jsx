@@ -35,7 +35,8 @@ const Login = () => {
     }
 
     function submitFormData(data){
-       window.location.assign("https://www.linkedin.com/in/manu-m-g-3a8a01211")
+    //    window.location.assign("https://www.linkedin.com/in/manu-m-g-3a8a01211")
+    nav("/product")
 
     }
     

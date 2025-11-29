@@ -5,6 +5,9 @@ import Register from "../../features/auth/pages/Register.jsx";
 import Auth from "../../features/auth/pages/Auth.jsx";
 import App from "../App.jsx";
 
+//Main Product Home
+import Home from "../../features/main/pages/Home.jsx";
+
 const Router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<App/>}>
@@ -12,6 +15,9 @@ const Router = createBrowserRouter(
                 <Route index element={<Navigate to={"/login"}/>}></Route>
                 <Route path="login"  element={<Login/>} ></Route>
                 <Route path="register" element={<Register/>}></Route>
+            </Route>
+            <Route path="product" element={<Home/>}>
+
             </Route>
         </Route>
     )
